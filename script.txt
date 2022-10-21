@@ -1,0 +1,7 @@
+1.	Init – creates a new git repository and a branch without any commits. If used in an already existing repository, it will not overwrite it.
+2.	Add – adds content of chosen files at the time the command is run. If changes are made afterwards the command must be run again. Files that are ignored are not added
+3.	Status – shows paths that have differences between the index file and the head commit, paths that are different from the working tree and the index file and paths in the working tree as long as they are not ignored
+4.	Commit – creates a new commit with the contents of the index file and a message with the changes made. The new commit is usually the tip of the current branch and the branch now points to it.
+5.	Remote – manage repositories
+6.	Push - Updates remote refs using local refs from the pc 
+7.	Branch – list delete and create branches
